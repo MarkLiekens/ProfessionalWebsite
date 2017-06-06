@@ -4129,7 +4129,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border-bottom: 1px dashed #777;
-  padding-bottom: 1px;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4174,6 +4173,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-right: 0;
   }
 }
+@media (max-width: 767px) {
+  .navbar-collapse .navbar-collapse-bottom-menuitem {
+    margin-bottom: 4px;
+  }
+}
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
@@ -4190,6 +4194,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
+  padding-bottom: 5px;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
