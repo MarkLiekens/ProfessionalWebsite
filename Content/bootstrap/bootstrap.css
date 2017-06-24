@@ -4475,26 +4475,32 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a {
   color: #777;
   border-bottom: 4px solid transparent;
+  /*&:focus {
+                color: @navbar-default-link-color;
+                background-color: @navbar-default-link-active-bg;
+                border-bottom: 4px solid @navbar-default-link-active-color;
+            }*/
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #777;
   background-color: #fff;
   border-bottom: 4px solid #0cc;
 }
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > .active > a {
   color: #777;
   background-color: #fff;
   border-bottom: 4px solid #099;
-}
-.navbar-default .navbar-nav > .active > a:hover {
-  color: #777;
-  background-color: #fff;
-  border-bottom: 4px solid #0cc;
-}
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #777;
-  background-color: #fff;
-  border-bottom: 4px solid #099;
+  /*&:hover {
+                color: @navbar-default-link-color;
+                background-color: @navbar-default-link-hover-bg;
+                border-bottom: 4px solid @navbar-default-link-hover-color;
+            }
+
+            &:focus {
+                color: @navbar-default-link-color;
+                background-color: @navbar-default-link-active-bg;
+                border-bottom: 4px solid @navbar-default-link-active-color;
+            }*/
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
