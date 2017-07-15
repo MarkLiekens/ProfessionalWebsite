@@ -84,6 +84,15 @@
         }
     }
 
+    .navbar-menuitem {
+        @media (min-width: @screen-sm-min) {
+            padding-bottom: 20px;
+        }
+        @media (max-width: @screen-xs-max) {
+            padding-bottom: 0px;
+        }
+    }
+
     .navbar-collapse-bottom-menuitem {
         @media (max-width: @screen-xs-max) {
             margin-bottom: 4px;
@@ -430,7 +439,6 @@
                 background-color: @navbar-default-link-hover-bg;
                 border-bottom: 4px solid @navbar-default-link-hover-color;
             }
-
             /*&:focus {
                 color: @navbar-default-link-color;
                 background-color: @navbar-default-link-active-bg;

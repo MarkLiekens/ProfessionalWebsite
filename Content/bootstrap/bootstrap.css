@@ -4171,6 +4171,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-right: 0;
   }
 }
+@media (min-width: 768px) {
+  .navbar-collapse .navbar-menuitem {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-collapse .navbar-menuitem {
+    padding-bottom: 0px;
+  }
+}
 @media (max-width: 767px) {
   .navbar-collapse .navbar-collapse-bottom-menuitem {
     margin-bottom: 4px;
