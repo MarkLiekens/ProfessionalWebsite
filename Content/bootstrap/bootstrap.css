@@ -4327,9 +4327,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav {
     float: left;
     margin: 0;
+    /*float: none;
+        text-align: center;*/
   }
   .navbar-nav > li {
     float: left;
+    /*float: none;
+            display: inline-flex;*/
   }
   .navbar-nav > li > a {
     padding-top: 15px;
