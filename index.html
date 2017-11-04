@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="navbar navbar-default">
+        <div id="navbarDefault" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- 'Sticky' (non-collapsing) right-side menu item(s) -->
                 <div class="navbar-header pull-right">
@@ -21,31 +21,39 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Mark Liekens<br />Professional Website</a>
+                    <a class="navbar-brand" href="#about">Mark Liekens<br />Professional Website</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="mynavbar-content">
                     <ul class="nav navbar-nav">
-                        <li><a class="navbar-menuitem" href="CV.html">CV</a></li>
-                        <li><a style="padding-bottom: 0px" href="DiplomasCertificates.html">Diplomas &<br />Certificates</a></li>
-                        <li><a class="navbar-menuitem" href="references.html">References</a></li>
-                        <li><a class="navbar-menuitem navbar-collapse-bottom-menuitem" href="Contact.html">Contact</a></li>
+                        <li><a class="navbar-menuitem" href="#cv">CV</a></li>
+                        <li><a style="padding-bottom: 0px" href="#diplomasAndCertificates">Diplomas &<br />Certificates</a></li>
+                        <li><a class="navbar-menuitem" href="#references">References</a></li>
+                        <li><a class="navbar-menuitem navbar-collapse-bottom-menuitem" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <div style="margin: 0 20px 0 20px">
-        <div class="media">
-            <div class="media-left">
-                <div class="soft-edge-circle">
-                    <img class="media-object img-soft-edge-circle" width="120" height="155" src="Content/images/MeGreyShirt.jpg">
+        <div id="scrollspy" data-spy="scroll" data-target="#navbarDefault" data-offset="0" class="scrollspy">
+            <header id="about">
+                <div class="media">
+                    <div class="media-left">
+                        <div class="soft-edge-circle">
+                            <img class="media-object img-soft-edge-circle" width="120" height="155" src="Content/images/MeGreyShirt.jpg">
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p style="padding-top:45px">Hello, my name is Mark Liekens. I'm an IT consultant and enthusiast!</p>
+                    </div>
                 </div>
-            </div>
-            <div class="media-body">
-                <p style="padding-top:45px">Hello, my name is Mark Liekens. I'm an IT consultant and enthusiast!</p>
-            </div>
-        </div>
+            </header>
+            <section id="cv">
+                <p>
+                    CV last updated on 24/06/2017
+                </p>
+                <input type="button" value="Open" class="btn btn-default" onclick="window.open('Content/cv/CVEN.pdf')">
+            </section>
+</div>
     </div>
 
     <script src="Scripts/jquery-1.9.1.js"></script>
