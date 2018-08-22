@@ -8,16 +8,36 @@
 
 section {
     margin: 0 20px 0 20px;
-    padding-top: 85px;
+    padding: 85px 20px 0 20px;
     width: 100%;
+}
+
+.aboutPage {
+     margin: 0 20px 0 20px;
+     width: 100%;
+}
+
+.aboutpage, .media-body div {
+    margin-top: 10vh;
+}
+
+.aboutPage span {
+    background-color: white;
+}
+
+.contactPage {
+     background-color: #099
 }
 
 .fillScreen {
     min-height:100vh;
 }
 
+.backgroundImage {
+    background-image: url('images/BinaryCode.jpg')
+}
+
 .img-soft-edge-circle {
-    border: solid 1px white;
     border-radius: 100%;
 }
 
