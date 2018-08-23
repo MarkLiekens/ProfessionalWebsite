@@ -17,8 +17,12 @@ section {
      width: 100%;
 }
 
+.aboutpage, .media-left img {
+    margin-top: 25vh;
+}
+
 .aboutpage, .media-body div {
-    margin-top: 10vh;
+    margin-top: 34vh;
 }
 
 .aboutPage span {
@@ -26,7 +30,17 @@ section {
 }
 
 .contactPage {
+    color: white;
      background-color: #099
+}
+
+.contactPage a {
+    color: white;
+    text-decoration: underline;
+}
+
+.contactPage a:hover {
+    cursor: pointer;
 }
 
 .fillScreen {
