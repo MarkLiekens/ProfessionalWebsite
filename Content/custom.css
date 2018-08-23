@@ -7,22 +7,12 @@
 }
 
 section {
-    margin: 0 20px 0 20px;
     padding: 85px 20px 0 20px;
     width: 100%;
 }
 
-.aboutPage {
-     margin: 0 20px 0 20px;
-     width: 100%;
-}
-
-.aboutpage, .media-left img {
-    margin-top: 25vh;
-}
-
-.aboutpage, .media-body div {
-    margin-top: 34vh;
+.aboutPage .media {
+    margin-top: 20vh !important;
 }
 
 .aboutPage span {
